@@ -1,0 +1,90 @@
+.text-orange {
+    color: #ff5722;
+}
+.text-navy {
+    color: #000080;
+}
+
+.btn-orange {
+    background: #ff5722 !important;
+    color: #ffffff !important;
+
+}
+
+.btn-orange:hover {
+    background: #e63600 !important;
+    color: #ffffff !important;
+    border-bottom: none !important;
+}
+
+.btn-outline-orange {
+    color: #ff5722;
+    background: #ffffff;
+    border: 1px solid #ff5722;
+}
+
+.btn-outline-orange:hover {
+    color: #fff;
+    background: #ff5722;
+    border: 1px solid #ff5722;
+}
+
+.bg-grey {
+    background: #fafafa;
+}
+
+.btn-navy {
+    color: #fff;
+    background-color: #000080;
+    border-color: #000080;
+}
+
+
+.btn-navy:hover {
+    color: #fff;
+    background-color: #00004d;
+    border-color: #00004d;
+}
+
+ 
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0 0 0 / 50%);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #000080;
+border-bottom: 1px solid #000080;
+}
+
+.navbar-brand {
+    margin-right: 1rem;
+}
+ 
+
+[id] {
+    scroll-margin-top: 8rem;
+}
+
+#display-googlemap .text-marker {}
+
+.map-generator {
+    max-width: 100%;
+    max-height: 100%;
+    background: none;
+
+}
+
+.text-right {
+    text-align: right;
+}
+
+@media all and (max-width: 814px) {
+    .address, .contact-info , .copyright, .main-title{
+        text-align: center !important;
+    }
+
+    .mob-full-width {
+        width: 100%;
+    }
+}
